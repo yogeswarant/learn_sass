@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn SASS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <h1>03-Nesting</h1>
+</header>
+<body>
+  <h2>
+    The css file for this page was created from a scss file
+  </h2>
+  <p>
+    Even arithmetic operations are possible on sass variables.
+  </p>
+  <div class="main">
+      Content in main.
+      <div class="sub">
+        Content in sub.
+      </div>
+      main continuing.
+  </div>
+  <p>
+  <pre>
+    $mygreen:#09d22d;
+    $myred: #8c1339;
+
+    .main {
+      color: $mygreen;
+      background-color: $myred;
+      .sub {
+        color: $mygreen + 100;
+        background-color: $myred + 100;
+      }
+    }
+
+  </pre>
+  </p>
+  </body>
+</html>
