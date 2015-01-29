@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn SASS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <h1>04-Mixins</h1>
+</header>
+<body>
+  <p>
+    THIS IS SOME RANDOM TEXT: It  is <span class="main">possible to make man </span>suid to a user man. Then, if a cat directory has owner man and mode 0755 (only writable by
+man), and the cat files have owner man and mode 0644 or 0444 (only writable by man, or not writable at all), no  ordi-
+nary user <span class="sub">can change the cat pages</span> or put other files in the cat directory. If man is not made suid, then a cat direc-
+tory should have mode 0777 if all users should be able to leave cat pages there.
+  </p>
+  <pre>
+    @mixin highlight($color:black) {
+      background-color: $color;
+      color: white;
+    }
+
+    .main {
+      @include highlight(#333);
+    }
+
+    .sub {
+      @include highlight(red);
+    }
+
+    &lt;span class="main"&gt;possible to make man &lt;/span&gt;
+    &lt;span class="sub"&gt;can change the cat pages&lt;/span&gt;
+  </pre>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+@mixin highlight($color:black) {
+  background-color: $color;
+  color: white;
+}
+
+.main {
+  @include highlight(#333);
+}
+
+.sub {
+  @include highlight(red);
+}
