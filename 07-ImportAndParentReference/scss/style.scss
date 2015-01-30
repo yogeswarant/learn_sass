@@ -1,0 +1,32 @@
+@import "shapes";
+@import "colors";
+
+.square {
+  &:hover { background-color: complement($lightgreen);}
+  @include square(100px, $lightgreen);
+}
+
+.circle {
+  &:hover { background-color: complement($cement);}
+  @include circle(100px, $cement);
+}
+
+.triangle-up {
+  &:hover { border-bottom-color: complement($englishblue);}
+  @include triangle(100px, up, $englishblue);
+}
+
+.triangle-down {
+  &:hover { border-top-color: complement($palegreen);}
+  @include triangle(100px, down, $palegreen);
+}
+
+.triangle-right {
+  &:hover { border-left-color: complement($violet);}
+  @include triangle(100px, right, $violet);
+}
+
+.triangle-left {
+  &:hover { border-right-color: complement($mustard);}
+  @include triangle(100px, left, $mustard);
+}

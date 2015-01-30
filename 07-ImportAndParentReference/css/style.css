@@ -1,0 +1,58 @@
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #4cc030; }
+  .square:hover {
+    background-color: #a430c0; }
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #80786d;
+  border-radius: 50px; }
+  .circle:hover {
+    background-color: #6d7580; }
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-width: 0 50px 50px 50px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: #434a93;
+  border-style: solid; }
+  .triangle-up:hover {
+    border-bottom-color: #938c43; }
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-width: 50px 50px 0 50px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #4e8c96;
+  border-style: solid; }
+  .triangle-down:hover {
+    border-top-color: #96584e; }
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-width: 100px 0 100px 100px;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: #420e6d;
+  border-style: solid; }
+  .triangle-right:hover {
+    border-left-color: #396d0e; }
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-width: 100px 100px 100px 0;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: #e7b358;
+  border-style: solid; }
+  .triangle-left:hover {
+    border-right-color: #588ce7; }
