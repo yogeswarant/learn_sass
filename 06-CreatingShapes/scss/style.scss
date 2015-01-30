@@ -1,0 +1,74 @@
+@mixin square($side, $color) {
+  width: $side;
+  height: $side;
+  background-color: $color;
+}
+
+@mixin circle($diameter, $color) {
+  width:$diameter;
+  height: $diameter;
+  background-color: $color;
+  border-radius: $diameter/2;
+}
+
+@mixin updown {
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+
+@mixin leftright {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+}
+
+@mixin triangle($side, $dir, $color) {
+  width: 0;
+  height: 0;
+  @if $dir == up {
+    border-width: 0 $side/2 $side/2 $side/2;
+    @include updown;
+    border-bottom-color: $color;
+  }
+  @else if $dir == down {
+    border-width: $side/2 $side/2 0 $side/2;
+    @include updown;
+    border-top-color: $color;
+  }
+  @else if $dir == right {
+    border-width: $side 0 $side $side;
+    @include leftright;
+    border-left-color: $color;
+  }
+  @else if $dir == left {
+    border-width: $side $side $side 0;
+    @include leftright;
+    border-right-color: $color;
+  }
+  border-style: solid;
+
+
+}
+
+.square {
+  @include square(100px, #4cc030);
+}
+
+.circle {
+  @include circle(100px, #80786d);
+}
+
+.triangle-up {
+  @include triangle(100px, up, #434a93);
+}
+
+.triangle-down {
+  @include triangle(100px, down, #4e8c96);
+}
+
+.triangle-right {
+  @include triangle(100px, right, #420e6d);
+}
+
+.triangle-left {
+  @include triangle(100px, left, #e7b358);
+}
