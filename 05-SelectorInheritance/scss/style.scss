@@ -1,0 +1,17 @@
+$myred:#af2121;
+$mygreen:#2ac72c;
+
+.normal {
+  width: 100px;
+  height: 100px;
+  background-color: $myred;
+  color: white;
+  text-align:center;
+  padding: 20px;
+}
+
+.extra {
+  @extend .normal;
+  border: 15px solid;
+  border-color: $mygreen;
+}

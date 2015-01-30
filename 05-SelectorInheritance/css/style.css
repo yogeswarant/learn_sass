@@ -1,0 +1,11 @@
+.normal, .extra {
+  width: 100px;
+  height: 100px;
+  background-color: #af2121;
+  color: white;
+  text-align: center;
+  padding: 20px; }
+
+.extra {
+  border: 15px solid;
+  border-color: #2ac72c; }
