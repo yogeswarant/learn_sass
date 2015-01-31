@@ -1,0 +1,8 @@
+$squares:(red, blue, green);
+@each $square in $squares {
+  .#{$square} {
+    width: 100px;
+    height: 100px;
+    background-color: #{$square};
+  }
+}

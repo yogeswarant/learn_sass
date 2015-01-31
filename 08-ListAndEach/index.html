@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn SASS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <h1>08 - List and each</h1>
+</header>
+<body>
+  <div class="red"></div>
+  <br>
+  <div class="blue"></div>
+  <br>
+  <div class="green"></div>
+  <br>
+  <pre>
+    $squares:(red, blue, green);
+    @each $square in $squares {
+      .#{$square} {
+        width: 100px;
+        height: 100px;
+        background-color: #{$square};
+      }
+    }
+  </pre>
+</body>
+</html>
