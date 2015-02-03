@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn SASS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <h1>09 - Nth function in list</h1>
+</header>
+<body>
+  <div class="red"></div>
+  <br>
+  <div class="blue"></div>
+  <br>
+  <div class="green"></div>
+  <br>
+  <pre>
+    @each $shape in (red 100, blue 200, green 300) {
+      .#{nth($shape, 1)} {
+        width: #{nth($shape, 2)}px;
+        height: #{nth($shape, 2)}px;
+        background-color: #{nth($shape, 1)};
+      }
+    }
+  </pre>
+</body>
+</html>

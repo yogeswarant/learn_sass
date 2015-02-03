@@ -1,0 +1,7 @@
+@each $shape in (red 100, blue 200, green 300) {
+  .#{nth($shape, 1)} {
+    width: #{nth($shape, 2)}px;
+    height: #{nth($shape, 2)}px;
+    background-color: #{nth($shape, 1)};
+  }
+}
