@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn SASS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <h1>10 - Built-in Function</h1>
+</header>
+<body>
+  <div class="red"></div>
+  <div class="green"></div>
+  <div class="blue"></div>
+  <h3>Using built-in function percentage() and rgba()</h3>
+  <pre>
+    $screen:1248;
+    $quater:295;
+
+    @mixin box($float, $height, $margin:10px) {
+      float: $float;
+      height: $height;
+      margin: $margin;
+      display: block;
+    }
+
+    .red {
+      width: percentage($quater / $screen);
+      background-color: rgba(#920a37, 0.5);
+      @include box(left, 100px, 10px);
+    }
+
+    .blue {
+      width: percentage($quater / $screen);
+      background-color: rgba(#084df2, 0.2);
+      @include box(left, 200px, 10px);
+    }
+
+    .green {
+      width: percentage(($quater + $quater + $quater)/$screen);
+      background-color: rgba(#0dca5b, 0.7);
+      @include box(right, 300px, 10px);
+    }
+</div>
+</body>
+</html>

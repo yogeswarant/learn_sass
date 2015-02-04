@@ -1,0 +1,23 @@
+.red {
+  width: 23.63782%;
+  background-color: rgba(146, 10, 55, 0.5);
+  float: left;
+  height: 100px;
+  margin: 10px;
+  display: block; }
+
+.blue {
+  width: 23.63782%;
+  background-color: rgba(8, 77, 242, 0.2);
+  float: left;
+  height: 200px;
+  margin: 10px;
+  display: block; }
+
+.green {
+  width: 70.91346%;
+  background-color: rgba(13, 202, 91, 0.7);
+  float: right;
+  height: 300px;
+  margin: 10px;
+  display: block; }
