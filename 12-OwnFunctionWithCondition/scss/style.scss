@@ -1,0 +1,65 @@
+$full:1248;
+$half: ($full / 2) - 20;
+$quater: ($half / 2) - 10;
+$vfull: 680;
+$vhalf: ($vfull / 2) - 20;
+$vquater: ($vhalf / 2) - 10;
+
+@mixin box($float, $height, $margin:10px) {
+  float: $float;
+  height: $height;
+  margin: $margin;
+  display: block;
+  text-align: center;
+  line-height: $height/2;
+  font-size: 36px;
+}
+
+@function text-contrast($background, $ratio) {
+  @if(lightness($background) < 50%) {
+    @return lighten($background, $ratio);
+  }
+  @return darken($background, $ratio);
+}
+
+$floats: (left, right);
+
+$sizes: (quater, half, full);
+$vsizes: (vquater, vhalf, vfull);
+
+$colors:(red rgba(#920a37, 0.5),
+         blue rgba(#084df2, 0.7),
+         green rgba(#0dca5b, 0.7),
+         black black,
+         gray gray);
+
+@each $float in $floats {
+  @each $size in $sizes {
+    @each $color in $colors {
+      .#{$float}-#{$size}-#{nth($color,1)} {
+        @include box($float, 100px, 10px);
+        background-color: #{nth($color, 2)};
+        color: text-contrast(nth($color, 2), 30%);
+        @if $size == quater {
+          width: #{$quater}px;
+        }@elseif $size == half {
+          width: #{$half}px;
+        }@elseif $size == full {
+          width: #{$full}px;
+        }
+      }
+    }
+  }
+}
+
+@each $vsize in $vsizes {
+  .#{$vsize} {
+    @if $vsize == vquater {
+      height: #{$vquater}px;
+    }@elseif $vsize == vhalf {
+      height: #{$vhalf}px;
+    }@elseif $vsize == vfull {
+      height: #{$vfull}px;
+    }
+  }
+}
