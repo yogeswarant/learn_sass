@@ -1,0 +1,79 @@
+.left-quater-red { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(146, 10, 55, 0.5); color: rgba(242, 67, 125, 0.5); width: 292px; }
+
+.left-quater-blue { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(8, 77, 242, 0.7); color: rgba(151, 181, 252, 0.7); width: 292px; }
+
+.left-quater-green { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(13, 202, 91, 0.7); color: rgba(122, 246, 173, 0.7); width: 292px; }
+
+.left-quater-black { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: black; color: #4d4d4d; width: 292px; }
+
+.left-quater-gray { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: gray; color: #343434; width: 292px; }
+
+.left-quater-white { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: white; color: #b3b3b3; width: 292px; }
+
+.left-half-red { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(146, 10, 55, 0.5); color: rgba(242, 67, 125, 0.5); width: 604px; }
+
+.left-half-blue { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(8, 77, 242, 0.7); color: rgba(151, 181, 252, 0.7); width: 604px; }
+
+.left-half-green { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(13, 202, 91, 0.7); color: rgba(122, 246, 173, 0.7); width: 604px; }
+
+.left-half-black { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: black; color: #4d4d4d; width: 604px; }
+
+.left-half-gray { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: gray; color: #343434; width: 604px; }
+
+.left-half-white { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: white; color: #b3b3b3; width: 604px; }
+
+.left-full-red { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(146, 10, 55, 0.5); color: rgba(242, 67, 125, 0.5); width: 1248px; }
+
+.left-full-blue { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(8, 77, 242, 0.7); color: rgba(151, 181, 252, 0.7); width: 1248px; }
+
+.left-full-green { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(13, 202, 91, 0.7); color: rgba(122, 246, 173, 0.7); width: 1248px; }
+
+.left-full-black { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: black; color: #4d4d4d; width: 1248px; }
+
+.left-full-gray { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: gray; color: #343434; width: 1248px; }
+
+.left-full-white { float: left; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: white; color: #b3b3b3; width: 1248px; }
+
+.right-quater-red { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(146, 10, 55, 0.5); color: rgba(242, 67, 125, 0.5); width: 292px; }
+
+.right-quater-blue { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(8, 77, 242, 0.7); color: rgba(151, 181, 252, 0.7); width: 292px; }
+
+.right-quater-green { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(13, 202, 91, 0.7); color: rgba(122, 246, 173, 0.7); width: 292px; }
+
+.right-quater-black { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: black; color: #4d4d4d; width: 292px; }
+
+.right-quater-gray { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: gray; color: #343434; width: 292px; }
+
+.right-quater-white { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: white; color: #b3b3b3; width: 292px; }
+
+.right-half-red { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(146, 10, 55, 0.5); color: rgba(242, 67, 125, 0.5); width: 604px; }
+
+.right-half-blue { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(8, 77, 242, 0.7); color: rgba(151, 181, 252, 0.7); width: 604px; }
+
+.right-half-green { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(13, 202, 91, 0.7); color: rgba(122, 246, 173, 0.7); width: 604px; }
+
+.right-half-black { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: black; color: #4d4d4d; width: 604px; }
+
+.right-half-gray { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: gray; color: #343434; width: 604px; }
+
+.right-half-white { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: white; color: #b3b3b3; width: 604px; }
+
+.right-full-red { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(146, 10, 55, 0.5); color: rgba(242, 67, 125, 0.5); width: 1248px; }
+
+.right-full-blue { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(8, 77, 242, 0.7); color: rgba(151, 181, 252, 0.7); width: 1248px; }
+
+.right-full-green { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: rgba(13, 202, 91, 0.7); color: rgba(122, 246, 173, 0.7); width: 1248px; }
+
+.right-full-black { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: black; color: #4d4d4d; width: 1248px; }
+
+.right-full-gray { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: gray; color: #343434; width: 1248px; }
+
+.right-full-white { float: right; height: 100px; margin: 10px; display: block; text-align: center; line-height: 50px; font-size: 36px; background-color: white; color: #b3b3b3; width: 1248px; }
+
+.vquater { height: 150px; }
+
+.vhalf { height: 320px; }
+
+.vfull { height: 680px; }
+
+.border { border: 2px solid; }

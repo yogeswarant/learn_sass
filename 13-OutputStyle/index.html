@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn SASS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <h1>13 - Output style.</h1>
+</header>
+<body>
+  <h3>sass output style can be expanded, compact  or compressed </h3>
+  <div>
+  <pre>
+  sass -w scss/style.scss css/style-expanded.css --style expanded
+  sass -w scss/style.scss:css/style-compact.css --style compact
+  sass -w scss/style.scss:css/style-compressed.css --style compressed
+
+  If style is not specified, defaults to <strong>expanded</strong>.
+  </pre>
+  </div>
+  </body>
+</html>
