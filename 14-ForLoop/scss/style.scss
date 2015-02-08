@@ -1,0 +1,7 @@
+@for $i from 1 through 4 {
+  .para-#{$i} {
+    margin-left: 20px * $i;
+    background: black;
+    color: gray;
+  }
+}
