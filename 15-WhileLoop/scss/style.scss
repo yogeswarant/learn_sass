@@ -1,0 +1,20 @@
+@function text-contrast($background, $index) {
+	@if lightness($background) < 50% {
+		@return lighten($background, 30%);
+	}
+	@return darken($background, 30%);
+}
+
+$color: black;
+$i: 0;
+
+@while $i < 5 {
+	$bgcolor: $color;
+ 	.para-#{$i} {
+    	margin-right: 20px * $i;
+		background: $bgcolor;
+    	color: text-contrast($bgcolor, $i);
+  	}
+  	$i: $i + 1;
+  	$color: $color +  ($i * 20);
+}

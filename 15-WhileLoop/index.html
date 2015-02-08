@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn SASS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <h1>15 - While loop.</h1>
+</header>
+<body>
+  <p class="para-1">
+       Some random text:: This command updates the index using the current content found in the working tree, to prepare the content staged for
+       the next commit. It typically adds the current content of existing paths as a whole, but with some options it can also
+       be used to add content with only part of the changes made to the working tree files applied, or remove paths that do
+       not exist in the working tree anymore.
+  </p>
+
+  <p class="para-2">
+    Some random text:: This command updates the index using the current content found in the working tree, to prepare the content staged for
+       the next commit. It typically adds the current content of existing paths as a whole, but with some options it can also
+       be used to add content with only part of the changes made to the working tree files applied, or remove paths that do
+       not exist in the working tree anymore.
+  </p>
+  <p class="para-3">
+    Some random text:: This command updates the index using the current content found in the working tree, to prepare the content staged for
+       the next commit. It typically adds the current content of existing paths as a whole, but with some options it can also
+       be used to add content with only part of the changes made to the working tree files applied, or remove paths that do
+       not exist in the working tree anymore.
+  </p>
+  <p class="para-4">
+    Some random text:: This command updates the index using the current content found in the working tree, to prepare the content staged for
+       the next commit. It typically adds the current content of existing paths as a whole, but with some options it can also
+       be used to add content with only part of the changes made to the working tree files applied, or remove paths that do
+       not exist in the working tree anymore.
+  </p>
+  <pre>
+    @function text-contrast($background, $index) {
+    @if lightness($background) < 50% {
+      @return lighten($background, 30%);
+    }
+      @return darken($background, 30%);
+    }
+
+    $color: black;
+    $i: 0;
+
+    @while $i < 5 {
+      $bgcolor: $color;
+      .para-#{$i} {
+          margin-right: 20px * $i;
+        background: $bgcolor;
+          color: text-contrast($bgcolor, $i);
+        }
+        $i: $i + 1;
+        $color: $color +  ($i * 20);
+    }
+  </pre>
+</body>
+</html>
