@@ -31,7 +31,8 @@ $colors:(red rgba(#920a37, 0.5),
          blue rgba(#084df2, 0.7),
          green rgba(#0dca5b, 0.7),
          black black,
-         gray gray);
+         gray gray,
+         white white);
 
 @each $float in $floats {
   @each $size in $sizes {
@@ -62,4 +63,8 @@ $colors:(red rgba(#920a37, 0.5),
       height: #{$vfull}px;
     }
   }
+}
+
+.border {
+  border: 2px solid;
 }

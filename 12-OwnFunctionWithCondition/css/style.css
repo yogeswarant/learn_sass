@@ -58,6 +58,18 @@
   color: #343434;
   width: 292px; }
 
+.left-quater-white {
+  float: left;
+  height: 100px;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 36px;
+  background-color: white;
+  color: #b3b3b3;
+  width: 292px; }
+
 .left-half-red {
   float: left;
   height: 100px;
@@ -116,6 +128,18 @@
   font-size: 36px;
   background-color: gray;
   color: #343434;
+  width: 604px; }
+
+.left-half-white {
+  float: left;
+  height: 100px;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 36px;
+  background-color: white;
+  color: #b3b3b3;
   width: 604px; }
 
 .left-full-red {
@@ -178,6 +202,18 @@
   color: #343434;
   width: 1248px; }
 
+.left-full-white {
+  float: left;
+  height: 100px;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 36px;
+  background-color: white;
+  color: #b3b3b3;
+  width: 1248px; }
+
 .right-quater-red {
   float: right;
   height: 100px;
@@ -236,6 +272,18 @@
   font-size: 36px;
   background-color: gray;
   color: #343434;
+  width: 292px; }
+
+.right-quater-white {
+  float: right;
+  height: 100px;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 36px;
+  background-color: white;
+  color: #b3b3b3;
   width: 292px; }
 
 .right-half-red {
@@ -298,6 +346,18 @@
   color: #343434;
   width: 604px; }
 
+.right-half-white {
+  float: right;
+  height: 100px;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 36px;
+  background-color: white;
+  color: #b3b3b3;
+  width: 604px; }
+
 .right-full-red {
   float: right;
   height: 100px;
@@ -358,6 +418,18 @@
   color: #343434;
   width: 1248px; }
 
+.right-full-white {
+  float: right;
+  height: 100px;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  font-size: 36px;
+  background-color: white;
+  color: #b3b3b3;
+  width: 1248px; }
+
 .vquater {
   height: 150px; }
 
@@ -366,3 +438,6 @@
 
 .vfull {
   height: 680px; }
+
+.border {
+  border: 2px solid; }
