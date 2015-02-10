@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn SASS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <h1>16 - Placeholder.</h1>
+</header>
+<body>
+  <div class="red">
+  </div>
+  <br><br>
+  <div class="blue">
+  </div>
+  <br><br>
+  <div class="mred">
+  </div>
+  <br><br>
+  <div class="mblue">
+  </div>
+  <p>Check the difference having a mixin and a placeholder</p>
+<h2>SCSS file</h2>
+  <pre>
+%square {
+  width: 100px;
+  height: 300px;
+}
+
+.red {
+  @extend %square;
+  background: red;
+}
+
+.blue {
+  @extend %square;
+  background: blue;
+}
+
+@mixin square {
+  width: 200px;
+  height: 200px;
+}
+
+.mred {
+  @include square();
+  background: red;
+}
+
+.mblue {
+  @include square();
+  background: blue;
+}
+  </pre>
+
+<h2>Generated CSS file</h2>
+  <pre>
+.red, .blue {
+  width: 100px;
+  height: 300px; }
+
+.red {
+  background: red; }
+
+.blue {
+  background: blue; }
+
+.mred {
+  width: 200px;
+  height: 200px;
+  background: red; }
+
+.mblue {
+  width: 200px;
+  height: 200px;
+  background: blue; }
+  </pre>
+</body>
+</html>

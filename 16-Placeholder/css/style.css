@@ -1,0 +1,19 @@
+.red, .blue {
+  width: 50px;
+  height: 50px; }
+
+.red {
+  background: red; }
+
+.blue {
+  background: blue; }
+
+.mred {
+  width: 60px;
+  height: 60px;
+  background: red; }
+
+.mblue {
+  width: 60px;
+  height: 60px;
+  background: blue; }
