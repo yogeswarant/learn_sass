@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learn SASS</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<header>
+  <h1>17 - Content.</h1>
+</header>
+<body>
+  <div class="block">
+    This is a simple block created using @content
+  </div>
+  <br><br>
+  <div class="superblock">
+    This is a special block created using @content and @media.
+  </div>
+  <br>
+  <pre>
+    //Just to illustrate @content
+    @mixin raw_mixin {
+        @content;
+    }
+    .block {
+      background: red;
+      @include raw_mixin {
+        width: 200px;
+        height: 400px;  
+      }
+    }
+
+    //@content usage make-sense with media queries
+    @mixin phone {
+      @media only screen and (max-width: 480px) {
+        @content;
+      }
+    }
+    .superblock {
+      background: red;
+      @include phone {
+        background: blue;
+      }
+    }
+  </pre>
+</body>
+</html>

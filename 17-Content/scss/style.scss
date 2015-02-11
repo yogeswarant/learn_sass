@@ -1,0 +1,24 @@
+//Just to illustrate @content
+@mixin raw_mixin {
+		@content;
+}
+.block {
+	background: red;
+	@include raw_mixin {
+		width: 200px;
+		height: 400px;	
+	}
+}
+
+//@content usage make-sense with media queries
+@mixin phone {
+	@media only screen and (max-width: 480px) {
+		@content;
+	}
+}
+.superblock {
+	background: red;
+	@include phone {
+		background: blue;
+	}
+}
